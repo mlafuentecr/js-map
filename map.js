@@ -30,7 +30,7 @@ am4core.ready(function () {
 
         imageSeries.data = [
           {
-            title: `${data1.country_name}`,
+            title: `${data1.city}, ip: ${data1.ip}`,
             latitude: data1.latitude,
             longitude: data1.longitude,
             color: colorSet.next(),
